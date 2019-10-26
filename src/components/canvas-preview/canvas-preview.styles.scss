@@ -1,13 +1,19 @@
 .canvas-preview {
   margin: 0 5%;
+  color: white;
 
   &-name {
     margin-bottom: 5px;
   }
   &-image {
     height: 10rem;
-    border: 1px solid black;
     margin-bottom: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   &-details {
   }

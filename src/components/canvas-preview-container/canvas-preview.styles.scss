@@ -1,5 +1,12 @@
 .canvas-preview-container {
   position: absolute;
   width: 100%;
-  top: 30%;
+  top: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+
+  &.show {
+    top: 30%;
+    opacity: 1;
+  }
 }

@@ -1,5 +1,7 @@
 .custom-canvas {
   height: 100%;
   width: 100%;
-  border: 3px solid red;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }

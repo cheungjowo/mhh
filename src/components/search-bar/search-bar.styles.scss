@@ -1,0 +1,44 @@
+.search-bar-container {
+  position: absolute;
+  top: -5rem;
+  opacity: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  z-index: 999;
+
+  .search-bar {
+    margin-left: 5%;
+    margin-top: 1.5rem;
+    width: 90%;
+    opacity: 0.9;
+    position: relative;
+
+    input {
+      padding: 0.6rem 1rem;
+      color: rgb(75, 75, 75);
+      letter-spacing: 1px;
+      font-size: 1.1rem;
+      border: none;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    button {
+      position: absolute;
+      right: 1rem;
+      top: 0.6rem;
+      background-color: transparent;
+      border: none;
+
+      img {
+        width: 1.2rem;
+      }
+    }
+  }
+
+  &.show {
+    top: 0;
+    opacity: 1;
+  }
+}
