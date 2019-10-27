@@ -4,9 +4,13 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   position: relative;
 
+  &-community-created {
+    margin-bottom: 0.5rem;
+  }
+
   &-name {
     position: absolute;
-    top: 0.5rem;
+    top: 2rem;
     left: 0.5rem;
     font-size: 1.1rem;
     font-weight: bold;

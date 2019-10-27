@@ -5,6 +5,7 @@ const CanvasPreview = ({
   name,
   image,
   details,
+  communityCreated,
   setCurrentCanvas,
   setShowPreviews
 }) => {
@@ -15,6 +16,9 @@ const CanvasPreview = ({
 
   return (
     <div onClick={handleClick} className='canvas-preview'>
+      <div className='canvas-preview-community-created'>
+        {communityCreated ? 'Community' : 'Developer'}
+      </div>
       <div className='canvas-preview-name'>{name}</div>
       <div
         className='canvas-preview-image'
