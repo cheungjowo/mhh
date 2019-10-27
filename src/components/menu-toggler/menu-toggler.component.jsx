@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './menu-toggler.styles.scss';
 import { Swipeable } from 'react-swipeable';
 

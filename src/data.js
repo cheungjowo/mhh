@@ -1,12 +1,12 @@
 const DATA = [
   {
-    name: 'Cool Cat',
+    name: 'Sketch',
     image: './images/cat1.jpg',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
   },
   {
-    name: 'Cat',
+    name: 'Frozen Brush',
     image: './images/cat2.jpg',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
