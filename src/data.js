@@ -12,25 +12,43 @@ const DATA = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
   },
   {
-    name: 'Space Cat',
+    name: 'Particle Plotter',
     image: './images/cat3.jpg',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
   },
   {
-    name: 'Anime Cat',
+    name: 'Sketch 1',
     image: './images/cat4.jpg',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
   },
   {
-    name: 'Cats',
+    name: 'Sketch 2',
     image: './images/cat5.jpg',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
   },
   {
-    name: 'Mystery Cat',
+    name: 'Sketch 3',
+    image: './images/cat6.jpg',
+    details:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
+  },
+  {
+    name: 'Sketch 4',
+    image: './images/cat6.jpg',
+    details:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
+  },
+  {
+    name: 'Sketch 5',
+    image: './images/cat6.jpg',
+    details:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
+  },
+  {
+    name: 'Sketch 6',
     image: './images/cat6.jpg',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorum.'
